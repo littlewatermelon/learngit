@@ -1,61 +1,3 @@
- 1025  ./cli 192.168.46.129 2000
- 1026  ps -elf|grep a.out
- 1027  ./cli 192.168.46.129 2000
- 1028  vim file1
- 1029  rm file1
- 1030  ./cli 192.168.46.129 2000
- 1031  ls -l
- 1032  rm file1
- 1033  ./cli 192.168.46.129 2000
- 1034  man socket
- 1035  man bind
- 1036  man listen
- 1037  man pthread_mutex_init
- 1038  man pthread
- 1039  man pthread_mutex
- 1040  man pthread_cond_init
- 1041  man pthread_creat
- 1042  man pthread_create
- 1043  man accept
- 1044  man 2 accept
- 1045  man pthread_cond_signal
- 1046  ls
- 1047  mysql -u root -r
- 1048  mysql -u root -p
- 1049  cd homework/0522/pra/
- 1050  ls
- 1051  gcc ser.c
- 1052  ./ser 192.168.46.129 2000
- 1053  cd ..
- 1054  ls -l
- 1055  ps -elf|grep a.out
- 1056  ./ser 192.168.46.129 2000
- 1057  cd -
- 1058  ./ser 192.168.46.129 2000
- 1059  vim ser.c
- 1060  ./ser 192.168.46.129 2000
- 1061  cd homework/0523/
- 1062  vim pthreadpool.c 
- 1063  ps -elLf|grep a.out
- 1064  ./ser 192.168.46.129 2001
- 1065  ps -elLf|grep a.out
- 1066  cd homework/
- 1067  ls
- 1068  ./cli 192.168.46.129 2000
- 1069  ./cli 192.168.46.129 2001
- 1070  ls -l
- 1071  vim /var/log/message
- 1072  cd ~/homework/
- 1073  cd 0522/pra/
- 1074  vim ser.c
- 1075  cd -
- 1076  ./cli 192.168.46.129 2001
- 1077  man signal
- 1078  man epoll_wait
- 1079  man epoll
- 1080  man epoll_create
- 1081  man epoll_ctl
- 1082  man epoll_wait
  1083  cd -
  1084  vim ser.c
  1085  man signal
@@ -998,3 +940,62 @@
  2022  git commit -m "wrote a readme file"
  2023  vim readme.txt 
  2024  history > his
+ 2025  cat his
+ 2026  ls
+ 2027  pwd
+ 2028  git status
+ 2029  git diff readme.txt
+ 2030  git -m "add upgrade"
+ 2031  git status
+ 2032  vim readme.txt 
+ 2033  git add readme.txt 
+ 2034  git commit -m "add thrid GPL
+"
+ 2035  git log
+ 2036  git log --pretty oneline
+ 2037  git log --pretty=oneline
+ 2038  git reset --hard HEAD^
+ 2039  cat readme.txt 
+ 2040  git reset -hard HEAD^
+ 2041  cd .git/
+ 2042  ls
+ 2043  pwd
+ 2044  cd HEAD
+ 2045  ls
+ 2046  cd =
+ 2047  cd -
+ 2048  ls
+ 2049  clear
+ 2050  git status
+ 2051  git log
+ 2052  history
+ 2053  git log --pretty=oneline
+ 2054  git reflog
+ 2055  git --reset --hard 94b56d7
+ 2056  git reset --hard 94b56d7
+ 2057  cat readme.txt 
+ 2058  git status
+ 2059  git log
+ 2060  git reset --hard HEAD^
+ 2061  git log
+ 2062  git reflog
+ 2063  cd .git/
+ 2064  ls
+ 2065  cd -
+ 2066  ls
+ 2067  git -m add his "history"
+ 2068  git  add his "history"
+ 2069  git  add -m his "history"
+ 2070  cat his 
+ 2071  vim readme.txt 
+ 2072  git add readme.txt 
+ 2073  ls
+ 2074  git status
+ 2075  git commit -m "add "
+ 2076  git add his 
+ 2077  ls
+ 2078  git status
+ 2079  commit -m "his and readme"
+ 2080  git commit -m "his and readme"
+ 2081  git log
+ 2082  history > his 
